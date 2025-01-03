@@ -73,9 +73,9 @@
 	];
 </script>
 
-<section class="bg-[#EBE2D5] py-12">
+<section class=" py-12">
 	<div class="mx-auto max-w-6xl px-4 text-center">
-		<h2 class="font-alice mb-10 text-center text-2xl font-bold text-[#6b4c35] md:text-3xl">
+		<h2 class="font-alice mb-10 text-center text-2xl font-bold  md:text-3xl">
 			What Our Clients Say
 		</h2>
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -93,15 +93,15 @@
 							alt={testimonial.name}
 							class="mb-4 h-16 w-16 rounded-full"
 						/>
-						<h3 class="text-lg font-semibold text-[#6b4c35]">
+						<h3 class="text-lg font-semibold ">
 							{testimonial.name}
 						</h3>
 						<p
-							class="font-raleway decoration-skip-ink-none text-sm font-normal italic leading-5 text-[#b89f7a] underline-offset-[from-font]"
+							class="font-raleway decoration-skip-ink-none text-sm font-normal italic leading-5  underline-offset-[from-font]"
 						>
 							{testimonial.title}
 						</p>
-						<p class="font-raleway mt-4 text-sm italic text-[#6A6866]">
+						<p class="font-raleway mt-4 text-sm italic ">
 							"{testimonial.quote}"
 						</p>
 					</div>

@@ -21,19 +21,19 @@
 	const philosophyimages = ['/images/philosophy2.png', '/images/philosophy.png'];
 </script>
 
-<section class="bg-[#F5EFE6] px-[5%] py-[75px] ">
+<section class=" px-[5%] py-[75px] ">
 <div class="max-w-[1200px] mx-auto py-[75px]" >
 <div class="flex  flex-col items-center gap-8  lg:flex-row">
 		<!-- Text Content -->
 		<div class="text-left lg:w-1/2">
-			<h1 class="font-alice mb-4 text-3xl font-semibold text-[#5A4635] md:text-4xl">{heroTitle}</h1>
-			<p class="font-raleway leading-relaxed text-[#766D66]">
+			<h1 class="font-alice mb-4 text-3xl font-semibold  md:text-4xl">{heroTitle}</h1>
+			<p class="font-raleway leading-relaxed ">
 				At MZ Design Consultancy, we specialize in creating bespoke interiors that blend luxury,
 				functionality, and timeless elegance. Based in Malaysia, our studio has over 20 years of
 				expertise in delivering personalized design solutions for residential, commercial, and
 				institutional spaces.
 			</p>
-			<p class="font-raleway mt-4 leading-relaxed text-[#766D66]">
+			<p class="font-raleway mt-4 leading-relaxed ">
 				Our mission is simple: to craft spaces that not only look stunning but also feel like home.
 				We create environments that go beyond aesthetics, seamlessly blending comfort and purpose to
 				suit your lifestyle. From serene homes to iconic commercial hubs, our designs are tailored
@@ -66,15 +66,15 @@
 	
 </section>
 
-<section class="bg-[#EBE2D5] py-[75px] px-[5%]">
+<section class=" py-[75px] px-[5%]">
 	<div class="mx-auto max-w-6xl px-4 text-center">
-		<h2 class="font-alice mb-6 text-3xl font-bold text-[#5A4635]">{title}</h2>
+		<h2 class="font-alice mb-6 text-3xl font-bold ">{title}</h2>
 		<div class="flex flex-col justify-center gap-6 sm:flex-row">
 			{#each images as image}
 				<img src={image} alt="Our Journey" class="w-full rounded-lg shadow-md sm:w-1/2" />
 			{/each}
 		</div>
-		<p class="font-raleway mt-8 leading-relaxed text-[#766D66]">{description}</p>
+		<p class="font-raleway mt-8 leading-relaxed ">{description}</p>
 	</div>
 </section>
 
@@ -82,7 +82,7 @@
 
 <AwardsRecognitions />
 
-<section class="bg-[#F5EFE6] py-[75px] px-[5%]">
+<section class=" py-[75px] px-[5%]">
   <div class="mx-auto flex max-w-[1220px] gap-12 md:gap-24 px-4 flex-col lg:flex-row items-center">
     <!-- Image Content -->
     <div class="grid grid-cols-2  md:h-[440px] gap-4 lg:w-1/2">
@@ -91,8 +91,8 @@
     </div>
     <!-- Text Content -->
     <div class="md:text-center text-left lg:w-1/2 lg:text-left">
-        <h2 class="mb-6 text-3xl font-alice font-bold text-[#6b4c35]">{philosophytitle}</h2>
-        <p class="leading-relaxed font-raleway text-[#766D66]">{philosophydescription}</p>
+        <h2 class="mb-6 text-3xl font-alice font-bold ">{philosophytitle}</h2>
+        <p class="leading-relaxed font-raleway ">{philosophydescription}</p>
     </div>
 </div>
 </section>

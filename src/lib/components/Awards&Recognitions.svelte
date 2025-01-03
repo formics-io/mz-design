@@ -27,12 +27,12 @@
 
 
 
-<section class="bg-[#F5EFE6] py-20 px-[5%] ">
+<section class=" py-20 px-[5%] ">
 	<div class="flex flex-col items-end max-w-[1440px] px-4 mx-auto ">
 		<!-- Section Header -->
 		<div class="mx-auto mb-16 text-center">
-			<h2 class="mb-6 font-serif text-4xl text-[#5C4937] lg:text-5xl">Awards & Recognitions</h2>
-			<p class=" leading-relaxed text-[#766D66]">
+			<h2 class="mb-6 font-serif text-4xl  lg:text-5xl font-alice">Awards & Recognitions</h2>
+			<p class=" leading-relaxed font-raleway">
 				Celebrating our journey of excellence and creativity with prestigious accolades that reflect
 				our dedication and success.
 			</p>
@@ -54,7 +54,7 @@
 		
 					<!-- Award Info -->
 					<div>
-						<h3 class="font-serif text-xl text-[#5C4937]">
+						<h3 class="font-serif text-xl ">
 							{award.title}
 						</h3>
 						<p class="text-gray-600">

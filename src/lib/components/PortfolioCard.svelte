@@ -17,8 +17,8 @@
 
       <!-- Content Section -->
       <div class="p-4 text-center">
-          <h3 class="text-lg font-normal font-raleway text-[#5A4635]">{title}</h3>
-          <p class="font-normal text-sm font-raleway text-[#6A6866]">{subtitle}</p>
+          <h3 class="text-lg font-normal font-raleway ">{title}</h3>
+          <p class="font-normal text-sm font-raleway ">{subtitle}</p>
       </div>
   </div>
 </a>

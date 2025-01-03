@@ -29,9 +29,9 @@
     }
 </script>
 
-<section class="bg-[#f8f4e7] py-12">
+<section class=" py-12">
     <div class="mx-auto max-w-6xl px-4 text-center">
-        <h2 class="mb-8 text-2xl md:text-3xl font-bold text-[#6b4c35]">
+        <h2 class="mb-8 text-2xl md:text-3xl font-bold ">
             Videos Featuring Principal IDr Monie Mohariff
         </h2>
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
@@ -55,7 +55,7 @@
                             class="flex h-16 w-16 transform items-center justify-center rounded-full bg-white shadow-lg transition-transform duration-300 group-hover:scale-110"
                             aria-label="Play video"
                         >
-                            <Play class="ml-1 h-8 w-8 text-[#5C4937]" />
+                            <Play class="ml-1 h-8 w-8 " />
                         </button>
                     </div>
                     {/if}

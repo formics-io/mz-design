@@ -51,7 +51,7 @@
 
 		<!-- View All Button -->
 		<div class="text-center">
-			<button class="relative inline-flex items-center justify-center rounded-full border border-[#5A4635] px-6 py-2 text-[#5A4635] overflow-hidden group">
+			<button class="relative inline-flex items-center justify-center rounded-full border border-gray-400 px-6 py-2  overflow-hidden group">
 				<span class="relative z-10 transition-colors duration-300 group-hover:text-white ">View All</span>
 				<div class="absolute inset-x-0 bottom-0 h-0 bg-blue-600 outline-none transition-all duration-300 ease-out group-hover:h-full"></div>
 			</button>

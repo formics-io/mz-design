@@ -33,11 +33,11 @@
   ];
 </script>
 
-<section class="bg-[#F5EFE6] py-20">
+<section class=" py-20">
   <div class="max-w-5xl mx-auto px-4 py-20">
     <!-- Project Header -->
     <div class="text-center mb-16">
-      <h1 class="text-4xl lg:text-5xl font-serif text-[#5C4937] mb-2">
+      <h1 class="text-4xl lg:text-5xl font-serif  mb-2">
         {title}
       </h1>
       <p class="text-gray-600 text-lg">

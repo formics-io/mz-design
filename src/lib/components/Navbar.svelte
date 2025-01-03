@@ -11,7 +11,7 @@
     };
 </script>
 
-<nav  class="bg-[#F5EFE6] px-2 md:px-6 py-4 fixed w-full z-10 overflow-hidden h-[88px]">
+<nav  class=" px-2 md:px-6 py-4 fixed w-full z-10 overflow-hidden h-[88px] ">
     <div class="container mx-auto flex items-center justify-between">
         <!-- Logo -->
         <a href="/" class="flex items-center">
@@ -19,7 +19,7 @@
         </a>
 
         <!-- Menu -->
-        <ul class="hidden md:flex space-x-6 text-[#5A4635] font-medium items-center">
+        <ul class="hidden md:flex space-x-6  font-medium items-center">
             <li>
                 <a
                     href="/"

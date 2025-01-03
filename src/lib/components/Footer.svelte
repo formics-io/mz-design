@@ -1,4 +1,4 @@
-<section class="bg-[#F5EFE6] py-[70px] px-[5%]">
+<section class=" py-[70px] px-[5%]">
   <div class="max-w-7xl mx-auto py-[70px] md:px-28 px-10 shadow-[0px_4px_20px_0px_#5A463524] rounded-2xl	">
     <!-- Top Section -->
     <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -9,7 +9,7 @@
       </div>
 
       <!-- Navigation Links -->
-      <nav class="flex gap-8 text-center text-[#72716F] flex-wrap text-base">
+      <nav class="flex gap-8 text-center  flex-wrap text-base">
         <a href="/" class="hover:underline">Home</a>
         <a href="/Service" class="hover:underline">Service</a>
         <a href="/Portfolio" class="hover:underline">Portfolio</a>
@@ -19,9 +19,9 @@
     </div>
 
     <!-- Bottom Section -->
-    <div class="mt-6 flex flex-col md:flex-row items-center justify-between text-[#6b4c35] text-sm border-t border-gray-300 pt-4">
+    <div class="mt-6 flex flex-col md:flex-row items-center justify-between  text-sm border-t border-gray-300 pt-4">
       <!-- Social Media Icons First on Mobile -->
-      <div class="flex space-x-4 text-[#6b4c35] order-1 md:order-2">
+      <div class="flex space-x-4  order-1 md:order-2">
         <a href="#" class="hover:text-gray-700">
           <img src="/icons/twitter-fill.svg" alt="Twitter" class="size-4" />
         </a>

@@ -1,0 +1,19 @@
+# Build
+/build
+/.svelte-kit
+/package
+.vercel
+.output
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+
+
+# Logs
+logs
+*.log
+/static/videos/
+/static/videos/

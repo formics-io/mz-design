@@ -21,8 +21,8 @@
 	const philosophyimages = ['/images/philosophy2.png', '/images/philosophy.png'];
 </script>
 
-<section class=" px-[5%] py-[75px] ">
-<div class="max-w-[1200px] mx-auto py-[75px]" >
+<section class=" px-[5%] ">
+<div class="max-w-[1200px] mx-auto py-[55px]" >
 <div class="flex  flex-col items-center gap-8  lg:flex-row">
 		<!-- Text Content -->
 		<div class="text-left lg:w-1/2">

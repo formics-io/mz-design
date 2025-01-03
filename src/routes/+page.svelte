@@ -62,7 +62,7 @@
 
 <Aboutus />
 
-<section class=" py-16">
+<section class="py-16">
 	<div class=" mx-auto px-4 md:w-[1091px]">
 		<!-- Heading -->
 		<div class="text-center">

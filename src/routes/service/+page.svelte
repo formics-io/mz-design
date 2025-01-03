@@ -61,9 +61,9 @@
     ];
   </script>
   
-  <section class=" py-20">
+  <section class="">
 
-   <div class="max-w-7xl mx-auto px-[5%] py-[77px] space-y-8">
+   <div class="max-w-7xl mx-auto px-[5%] xl:py-[77px] space-y-8">
       <h2 class="md:text-4xl text-3xl text-center font-alice ">Our Services</h2>
       <div class="space-y-8">
         {#each services as service, index}

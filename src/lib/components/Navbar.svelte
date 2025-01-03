@@ -11,15 +11,15 @@
     };
 </script>
 
-<nav  class=" px-2 md:px-6 py-4 fixed w-full z-10 overflow-hidden h-[88px] ">
-    <div class="container mx-auto flex items-center justify-between">
+<nav  class=" px-2 md:px-6 py-4  w-full z-10 overflow-visible h-[88px] ">
+    <div class="container mx-auto flex items-center justify-between" >
         <!-- Logo -->
         <a href="/" class="flex items-center">
             <img src="/logo.png" alt="Logo" class="h-8 md:h-11" />
         </a>
 
         <!-- Menu -->
-        <ul class="hidden md:flex space-x-6  font-medium items-center">
+        <ul class="hidden md:flex space-x-6  font-medium items-center space-y-4" >
             <li>
                 <a
                     href="/"
@@ -73,7 +73,7 @@
             on:click={toggleMenu}
         >
             {#if isOpen}
-            <CircleX color="#5A4635" size="24" />
+            <CircleX color="black" size="24" />
             {:else}
                 <img src="/icons/menu.png" alt="menu">
             {/if}
@@ -82,7 +82,7 @@
 
     <!-- Mobile Menu -->
     {#if isOpen}
-        <ul class="bg-[#F5EFE6] px-10 font-alice text-[#5A4635] font-semibold text-left space-y-4 p-4 md:hidden">
+        <ul class=" px-10 font-alice  font-semibold text-left space-y-4 p-4 md:hidden bg-white" >
             <li>
                 <a
                     href="/"
@@ -93,6 +93,7 @@
                     Home
                 </a>
             </li>
+           
             <li>
                 <a
                     href="/service"

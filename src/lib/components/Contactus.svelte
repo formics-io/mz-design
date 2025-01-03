@@ -24,8 +24,8 @@
 	];
 </script>
 
-<section class=" py-[70px] px-[5%] ">
-	<div class="mx-auto max-w-[1260px] justify-items-center text-center flex flex-col">
+<section class=" py-[70px] px-[5%] mx-auto">
+	<div class="mx-auto max-w-[1260px] justify-items-center items-center text-center flex flex-col">
         <div class="flex flex-col items-center justify-center">
             <h2 class="mb-4 text-[50px] font-normal font-alice leading-[57.15px] text-center  underline-offset-[from-font] decoration-skip-ink-none">Contact Us</h2>
             <p class="mb-10 max-w-[700px] ">
@@ -33,9 +33,9 @@
                 feedback, we’re here to help.
             </p>
         </div>
-		<div class="flex flex-wrap flex-row gap-4 mx-auto justify-items-start	">
+		<div class="flex flex-wrap flex-row gap-4 mx-auto ">
 			{#each contacts as contact}
-				<div class=" sm:w-[400px]  xs:w-full rounded-xl border  p-6 text-left shadow-md">
+				<div class=" md:w-[400px]  w-full  rounded-xl border  p-6 text-left shadow-md">
 					<div class="">
 						<img class="flex-shrink-0 text-2xl " 
 							src={contact.icon}
@@ -51,7 +51,7 @@
 						{/if}
 					</p>									 
 					<div class="flex gap-2">
-                        <button
+                        <button style="border:1px solid black;"
 						class="text-xs	font-semibold  w-[93px] h-[32px] rounded-full  px-[16px] py-[8px] text-center text-sm  transition hover:bg-opacity-80"
 					>
 						{contact.buttonLabel}

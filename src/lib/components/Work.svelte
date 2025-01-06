@@ -28,18 +28,7 @@
         </div>
 
         <div class="group relative overflow-hidden rounded-2xl">
-            <video
-                bind:this={videoElement}
-                src="/videos/classical (1).mp4"
-                poster="/images/overlay.png"
-                class="h-auto w-full rounded-2xl object-cover cursor-pointer"
-                preload="auto"
-                on:play={() => isPlaying = true}
-                on:pause={() => isPlaying = false}
-                on:click={handleVideoClick}
-            >
-                <source src="/videos/classical (1).mp4" type="video/mp4">
-            </video>
+            <iframe style="height: 500px; width:100%" src="https://www.youtube.com/embed/_k8u2PE_7jE?si=VSSYtwIVOsA5e95h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             {#if !isPlaying}
             <div class="absolute inset-0 flex items-center justify-center bg-black/20 transition-colors duration-300 group-hover:bg-black/30">

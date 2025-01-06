@@ -9,10 +9,10 @@
     }
 
     const videos: Video[] = [
-        { id: 1, title: 'Video 1', src: '/videos/classical (1).mp4', thumbnail: '/images/video.png' },
-        { id: 2, title: 'Video 2', src: '/videos/classical (1).mp4', thumbnail: '/images/video.png' },
-        { id: 3, title: 'Video 3', src: '/videos/classical (1).mp4', thumbnail: '/images/video.png' },
-        { id: 4, title: 'Video 4', src: '/videos/classical (1).mp4', thumbnail: '/images/video.png' }
+        { id: 1, title: 'Video 1', src: 'https://www.youtube.com/embed/_k8u2PE_7jE?si=dlaN-TigfV7QyxC5', thumbnail: '/images/video.png' },
+        { id: 2, title: 'Video 2', src: 'https://www.youtube.com/embed/JIiBKTSfVIA?si=pRBZQrTmqzULRiND', thumbnail: '/images/video.png' },
+        { id: 3, title: 'Video 3', src: 'https://www.youtube.com/embed/U2fS4i5zcDU?si=bImOdGEZvfN7Uu7L', thumbnail: '/images/video.png' },
+        { id: 4, title: 'Video 4', src: 'https://www.youtube.com/embed/2KAqFpcM3Zc?si=7AJQQwWSl_CeCJaN', thumbnail: '/images/video.png' }
     ];
 
     let videoElements: { [key: number]: HTMLVideoElement } = {};
@@ -36,7 +36,8 @@
         </h2>
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
             {#each videos as video}
-                <div class="group relative overflow-hidden rounded-2xl" on:click={() => togglePlay(video.id)}>
+                <!-- svelte-ignore a11y_click_events_have_key_events -->
+                <div class="group relative overflow-hidden rounded-2xl" role="button" tabindex="0" on:click={() => togglePlay(video.id)} on:keydown={(e) => e.key === 'Enter' && togglePlay(video.id)}>
                     <video 
                         bind:this={videoElements[video.id]}
                         src={video.src}
@@ -45,6 +46,7 @@
                         preload="auto"
                         on:play={() => isPlaying[video.id] = true}
                         on:pause={() => isPlaying[video.id] = false}
+                         <track kind="captions" src="captions_en.vtt" srclang="en" label="English" /> 
                     >
                         <source src={video.src} type="video/mp4">
                     </video>

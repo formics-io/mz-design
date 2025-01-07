@@ -11,10 +11,10 @@
       <!-- Navigation Links -->
       <nav class="flex gap-8 text-center  flex-wrap text-base">
         <a href="/" class="hover:underline">Home</a>
-        <a href="/Service" class="hover:underline">Service</a>
-        <a href="/Portfolio" class="hover:underline">Portfolio</a>
-        <a href="/About" class="hover:underline">About Us</a>
-        <a href="/Contact" class="hover:underline">Contact Us</a>
+        <a href="/service" class="hover:underline">Service</a>
+        <a href="/portfolio" class="hover:underline">Portfolio</a>
+        <a href="/about" class="hover:underline">About Us</a>
+        <a href="/contact" class="hover:underline">Contact Us</a>
       </nav>
     </div>
 
@@ -22,16 +22,16 @@
     <div class="mt-6 flex flex-col md:flex-row items-center justify-between  text-sm border-t border-gray-300 pt-4">
       <!-- Social Media Icons First on Mobile -->
       <div class="flex space-x-4  order-1 md:order-2">
-        <a href="#" class="hover:text-gray-700">
+        <a href="/" class="hover:text-gray-700">
           <img src="/icons/twitter-fill.svg" alt="Twitter" class="size-4" />
         </a>
-        <a href="#" class="hover:text-gray-700">
+        <a href="/" class="hover:text-gray-700">
           <img src="/icons/Vector.svg" alt="Instagram" class="size-4" />
         </a>
-        <a href="#" class="hover:text-gray-700">
+        <a href="/" class="hover:text-gray-700">
           <img src="/icons/Vector (1).svg" alt="LinkedIn" class="size-4" />
         </a>
-        <a href="#" class="hover:text-gray-700">
+        <a href="/" class="hover:text-gray-700">
           <img src="/icons/Vector (2).svg" alt="WhatsApp" class="size-4" />
         </a>
       </div>

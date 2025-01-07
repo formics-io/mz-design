@@ -75,7 +75,7 @@
 
 <section class=" py-12">
 	<div class="mx-auto max-w-6xl px-4 text-center">
-		<h2 class="font-alice mb-10 text-center text-2xl font-bold  md:text-3xl">
+		<h2 class="font-alice mb-10 text-center text-6xl font-bold  md:text-3xl">
 			What Our Clients Say
 		</h2>
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

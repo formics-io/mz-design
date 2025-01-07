@@ -1,5 +1,4 @@
 <script>
-	
 	import Aboutus from '$lib/components/Aboutus.svelte';
 	import AwardsRecognitions from '$lib/components/Awards&Recognitions.svelte';
 	import Contactus from '$lib/components/Contactus.svelte';
@@ -56,13 +55,12 @@
 			images: ['/images/Rectangle 14.png', '/images/Frame 108.png']
 		}
 	];
-
 </script>
 
 <Hero />
-
 <Aboutus />
 
+<!-- services -->
 <section class="py-16  px-[5%] max-w-[1200px] mx-auto">
 	<div class=" mx-auto">
 		<!-- Heading -->
@@ -227,8 +225,6 @@
   </div>
 </section>
 
-
-
 <section class=" py-20 px-[5%] max-w-[1300px] mx-auto">
 	<div class="mx-auto ">
 		<div class="grid gap-16 lg:grid-cols-2">
@@ -269,23 +265,10 @@
 		</div>
 	</div>
 </section>
-
 <Work/>
-
 <LastProjects/>
-
-
-<section class="h-[100vh]" style="position: relative;">
-
-	<AwardsRecognitions/>
-</section>
-
-
+<AwardsRecognitions/>
 <Vedios/>
-
-
 <ClientLogoList />
-
 <Testimonial/>
-
 <Contactus />

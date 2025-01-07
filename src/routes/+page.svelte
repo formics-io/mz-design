@@ -78,7 +78,7 @@
 		<!-- Services Grid -->
 		<div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 			<!-- Service 1 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame.svg" alt="Planning Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -89,7 +89,7 @@
 			</div>
 
 			<!-- Service 2 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (1).svg" alt="Architecture Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -100,7 +100,7 @@
 			</div>
 
 			<!-- Service 3 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (2).svg" alt="Interior Design Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -111,8 +111,8 @@
 			</div>
 
 			<!-- Service 4 -->
-			<div class="text-center">
-				<div class="flex justify-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
+				<div class="flex justify-center ">
 					<img src="/icons/Frame (3).svg" alt="Landscape Design Icon" class="mb-4 h-12 w-12" />
 				</div>
 				<h3 class="text-xl font-semibold ">Landscape Design</h3>
@@ -122,7 +122,7 @@
 			</div>
 
 			<!-- Service 5 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (4).svg" alt="Lighting Design Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -133,7 +133,7 @@
 			</div>
 
 			<!-- Service 6 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (5).svg" alt="Graphics Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -144,7 +144,7 @@
 			</div>
 
 			<!-- Service 7 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (6).svg" alt="Paintings Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -156,7 +156,7 @@
 			</div>
 
 			<!-- Service 8 -->
-			<div class="text-center">
+			<div class="text-center 	hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (7).svg" alt="Art Gallery Icon" class="mb-4 h-12 w-12" />
 				</div>
@@ -167,7 +167,7 @@
 			</div>
 
 			<!-- Service 9 -->
-			<div class="text-center">
+			<div class="text-center hover:shadow-2xl p-4 rounded-lg	">
 				<div class="flex justify-center">
 					<img src="/icons/Frame (8).svg" alt="Workshop Icon" class="mb-4 h-12 w-12" />
 				</div>

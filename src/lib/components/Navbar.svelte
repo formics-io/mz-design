@@ -19,7 +19,7 @@
         </a>
 
         <!-- Menu -->
-        <ul class="hidden md:flex space-x-6  font-medium items-center space-y-4" >
+        <ul class="hidden md:flex space-x-6  font-medium items-center " >
             <li>
                 <a
                     href="/"
@@ -82,7 +82,7 @@
 
     <!-- Mobile Menu -->
     {#if isOpen}
-        <ul class=" px-10 font-alice  font-semibold text-left space-y-4 p-4 md:hidden bg-white" >
+        <ul class=" px-10 font-alice  font-semibold text-left space-y-4 py-6 md:hidden bg-white shadow-2xl rounded-lg	duration-500	" >
             <li>
                 <a
                     href="/"

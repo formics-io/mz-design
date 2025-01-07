@@ -31,7 +31,7 @@ function togglePlay(id: number): void {
             {#each videos as video}
                 <!-- svelte-ignore a11y_click_events_have_key_events -->
                 <div class="group relative overflow-hidden rounded-2xl " role="button" tabindex="0" on:click={() => togglePlay(video.id)} on:keydown={(e) => e.key === 'Enter' && togglePlay(video.id)}>
-                    {#if isPlaying[video.id]}
+                   
                         <iframe 
                             src={video.src}
                             class="h-auto w-full rounded-2xl object-cover cursor-pointer"
@@ -42,8 +42,8 @@ function togglePlay(id: number): void {
                             style="height: 350px;"
                            
                         ></iframe>
-                    {:else}
-                        <img 
+                   
+                        <!-- <img 
                             src={video.thumbnail}
                             class="h-auto w-full rounded-2xl object-cover cursor-pointer"
                             alt={video.title}
@@ -55,8 +55,8 @@ function togglePlay(id: number): void {
                             >
                                 <Play class="ml-1 h-8 w-8" />
                             </button>
-                        </div>
-                    {/if}
+                        </div> -->
+                    <!-- {/if} -->
                 </div>
             {/each}
         </div>

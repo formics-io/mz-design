@@ -61,11 +61,11 @@
     ];
   </script>
   
-  <section class="">
+  <section class=" xl:py-[77px] mx-auto">
 
-   <div class="max-w-7xl mx-auto px-[5%] xl:py-[77px] space-y-8">
+   <div class="max-w-[1200px] mx-auto  space-y-8">
       <h2 class="md:text-4xl text-3xl text-center font-alice ">Our Services</h2>
-      <div class="space-y-8">
+      <div class="space-y-8 px-[5%]">
         {#each services as service, index}
           <Card
             title={service.title}

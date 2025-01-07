@@ -12,7 +12,7 @@
     alt={title} 
     class="w-full lg:w-1/2 rounded-lg object-cover"
   />
-  <div class="flex-1 py-[70px]">
+  <div class="flex-1 py-[70px] px-[5%]">
     <h2 class="text-4xl  font-alice mb-4">{title}</h2>
     <p class=" font-raleway mb-6 text-[20px] font-medium	">{description}</p>
     <div class="space-y-3">

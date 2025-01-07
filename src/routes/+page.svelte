@@ -62,8 +62,8 @@
 
 <Aboutus />
 
-<section class="py-16">
-	<div class=" mx-auto px-4 md:w-[1091px]">
+<section class="py-16  px-[5%] max-w-[1200px] mx-auto">
+	<div class=" mx-auto">
 		<!-- Heading -->
 		<div class="text-center">
 			<h2 class="text-3xl font-bold  md:text-4xl">Our Services</h2>
@@ -182,7 +182,7 @@
 
 <section class=" px-[5%] py-16">
   <div class="mx-auto md:max-w-6xl">
-    <h2 class="mb-20 text-center font-serif text-5xl ">How We Work</h2>
+    <h2 class="lg:mb-20 mb-10 text-center font-serif lg:text-5xl xl:text-5xl xxl:text-5xl text-4xl">How We Work</h2>
 
     <!-- Horizontal Scroll Section -->
     <div
@@ -228,8 +228,8 @@
 
 
 
-<section class=" py-20">
-	<div class="mx-auto max-w-7xl px-4">
+<section class=" py-20 px-[5%] max-w-[1300px] mx-auto">
+	<div class="mx-auto ">
 		<div class="grid gap-16 lg:grid-cols-2">
 			<!-- Left Column - Hero Text -->
 			<div class="space-y-6">

@@ -28,7 +28,7 @@
   import { ScrollTrigger } from "gsap/ScrollTrigger";
   export const ssr = false;
 
-export function scrollSmooth() {
+// export function scrollSmooth() {
   gsap.registerPlugin(ScrollTrigger);
   onMount(() => {
     const horizontal = document.getElementById("horizontal");
@@ -51,8 +51,12 @@ export function scrollSmooth() {
       console.error("Element not found: horizontal or horizontalContainer");
     }
   });
-}
+// }
+
+
 </script>
+
+
 
 
 <style>
@@ -61,10 +65,11 @@ export function scrollSmooth() {
 	  height: auto;
 	}
   </style>
+
   
-  <section class="py-20 px-[5%] ">
+   <section class="py-20 px-[5%] " style="position: relative;">
 	<div class="flex flex-col items-end max-w-[1440px] px-4 mx-auto" style="align-items: flex-start;">
-	  <!-- Section Header -->
+	 
 	  <div class="mx-auto mb-16 text-center">
 		<h2 class="mb-6 font-serif text-4xl lg:text-5xl font-alice">Awards & Recognitions</h2>
 		<p class="leading-relaxed font-raleway">
@@ -73,12 +78,12 @@ export function scrollSmooth() {
 		</p>
 	  </div>
   
-	  <!-- Awards Grid -->
+	  
 	  <div id="horizontalContainer" class="horizontal-container flex  gap-8 pb-4 w-full snap-x scroll-smooth " >
 		<div id="horizontal" class="flex gap-8 " style="align-items: flex-start;" >
 		  {#each awards as award}
 			<div class="group  snap-center">
-			  <!-- Certificate Image -->
+			 
 			  <div class="mb-4 rounded-2xl transition-all duration-300 hover:shadow-md ">
 				<img 
 				  src={award.image} 
@@ -86,9 +91,9 @@ export function scrollSmooth() {
 				  class="rounded-lg md:h-[457px] md:w-full object-cover"
 				  style="width:100%; height:100%; max-height:457px;" 
 				/>
-			  </div>
+			  </div> 
 	  
-			  <!-- Award Info -->
+			 
 			  <div>
 				<h3 class="font-serif text-xl">
 				  {award.title}
@@ -103,6 +108,6 @@ export function scrollSmooth() {
 		</div>
 	  </div>
 	</div>
-  </section>
+  </section> 
 
  

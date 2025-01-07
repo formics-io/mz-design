@@ -26,7 +26,9 @@
   import { onMount } from 'svelte';
   import { gsap } from "gsap";
   import { ScrollTrigger } from "gsap/ScrollTrigger";
+  export const ssr = false;
 
+export function scrollSmooth() {
   gsap.registerPlugin(ScrollTrigger);
   onMount(() => {
     const horizontal = document.getElementById("horizontal");
@@ -49,6 +51,7 @@
       console.error("Element not found: horizontal or horizontalContainer");
     }
   });
+}
 </script>
 
 

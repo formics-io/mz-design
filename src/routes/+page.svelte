@@ -1,13 +1,14 @@
 <script>
+	
 	import Aboutus from '$lib/components/Aboutus.svelte';
 	import AwardsRecognitions from '$lib/components/Awards&Recognitions.svelte';
 	import Contactus from '$lib/components/Contactus.svelte';
-	import Footer from '$lib/components/Footer.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import LastProjects from '$lib/components/LastProjects.svelte';
 	import Testimonial from '$lib/components/Testimonial.svelte';
 	import Vedios from '$lib/components/Vedios.svelte';
 	import Work from '$lib/components/Work.svelte';
+	import ClientLogoList from '$lib/components/ClientLogoList.svelte';
 	import { LightbulbIcon, Building2Icon, GraduationCapIcon, Award, Play } from 'lucide-svelte';
 
 	const features = [
@@ -273,9 +274,17 @@
 
 <LastProjects/>
 
-<AwardsRecognitions/>
+
+<section class="h-[100vh]" style="position: relative;">
+
+	<AwardsRecognitions/>
+</section>
+
 
 <Vedios/>
+
+
+<ClientLogoList />
 
 <Testimonial/>
 

@@ -1,22 +1,22 @@
 <script>
 	const awards = [
 		{
-			image: '/images/awards/APPRECIATION-LETTER-MZDC.jpeg', // Replace with your actual certificate image
+			image: '/images/awards/APPRECIATION-LETTER-MZDC.jpeg', 
 			title: 'Inaugural Women of Excellence Awards',
 			year: '2014'
 		},
 		{
-			image: '/images/awards/Picture6.jpg', // Replace with your actual certificate image
+			image: '/images/awards/Picture6.jpg', 
 			title: 'MALAYSIA MEGA SALE CARNIVAL',
 			year: '2009'
 		},
 		{
-			image: '/images/awards/Picture8.jpg', // Replace with your actual certificate image
+			image: '/images/awards/Picture8.jpg', 
 			title: 'Nippon Paint Young Designer',
 			year: '2013'
 		},
 		{
-			image: '/images/awards/Picture42.jpg', // Replace with your actual certificate image
+			image: '/images/awards/Picture42.jpg', 
 			title: 'Nippon Paint Young Designer',
 			year: '2013'
 		},
@@ -28,8 +28,6 @@
   import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   gsap.registerPlugin(ScrollTrigger);
-
-  
   onMount(() => {
     const horizontal = document.getElementById("horizontal");
     const horizontalContainer = document.getElementById("horizontalContainer");
@@ -56,12 +54,9 @@
 
 <style>
 	.horizontal-container {
-	  /* overflow-x: hidden; */
 	  white-space: nowrap;
-	  
+	  height: auto;
 	}
-	
-	
   </style>
   
   <section class="py-20 px-[5%] ">

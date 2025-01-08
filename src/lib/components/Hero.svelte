@@ -92,49 +92,49 @@
 			>
 				<div class="flex animate-scroll gap-12">
 					<img
-						src="/images/ClientMZ/1.jpeg"
+						src="/images/ClientMZ/1.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/2.jpeg"
+						src="/images/ClientMZ/2.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/3.jpeg"
+						src="/images/ClientMZ/3.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/4.jpeg"
+						src="/images/ClientMZ/4.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/5.jpeg"
+						src="/images/ClientMZ/5.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/6.jpeg"
+						src="/images/ClientMZ/6.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/7.jpeg"
+						src="/images/ClientMZ/7.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/8.jpeg"
+						src="/images/ClientMZ/8.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/ClientMZ/9.jpeg"
+						src="/images/ClientMZ/9.svg"
 						alt="company logo"
-						class="h-16 w-auto animate-scroll "
+						class="h-24 w-auto animate-scroll "
 					/>
 				</div>
 			</div>

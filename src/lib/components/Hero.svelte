@@ -88,53 +88,53 @@
 			</div>
 			<!-- Company Logos -->
 			<div
-				class="order-4 mt-10 flex justify-end overflow-hidden opacity-50 lg:order-3 lg:max-w-[500px] lg:justify-self-end"
+				class="order-4 mt-10 flex justify-end overflow-hidden  lg:order-3 lg:max-w-[500px] lg:justify-self-end"
 			>
 				<div class="flex animate-scroll gap-12">
 					<img
-						src="/images/logoList/apple (1).png"
+						src="/images/ClientMZ/1.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/ibm (1).png"
+						src="/images/ClientMZ/2.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/microsoft (1).png"
+						src="/images/ClientMZ/3.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/intel.png"
+						src="/images/ClientMZ/4.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/google.png"
+						src="/images/ClientMZ/5.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/apple (1).png"
+						src="/images/ClientMZ/6.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/ibm (1).png"
+						src="/images/ClientMZ/7.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/microsoft (1).png"
+						src="/images/ClientMZ/8.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 					<img
-						src="/images/logoList/intel.png"
+						src="/images/ClientMZ/9.jpeg"
 						alt="company logo"
-						class="h-12 w-auto animate-scroll grayscale"
+						class="h-16 w-auto animate-scroll "
 					/>
 				</div>
 			</div>

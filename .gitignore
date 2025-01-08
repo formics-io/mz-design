@@ -17,3 +17,6 @@ logs
 *.log
 /static/videos/
 /static/videos/
+
+# Local Netlify folder
+.netlify

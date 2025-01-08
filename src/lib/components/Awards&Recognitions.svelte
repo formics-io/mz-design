@@ -40,11 +40,14 @@
         ease: "none",
         scrollTrigger: {
           trigger: horizontalContainer,
-          pin: true,
-          start: "top top",
-          end: () => `+=${horizontal.scrollWidth - horizontalContainer.clientWidth}`,
+          pin: ".pin",
+        //   start: "top top",
+        //   end: () => `+=${horizontal.scrollWidth - horizontalContainer.clientWidth}`,
+		start: "top center",
+		end: "+=300",
           scrub: 0.5,
           invalidateOnRefresh: true,
+		  
         }
       });
     } else {
@@ -62,13 +65,15 @@
 <style>
 	.horizontal-container {
 	  white-space: nowrap;
+	  /* height: 100vh; */
 	  height: auto;
+
 	}
   </style>
 
   
-   <section class="py-20 px-[5%] " style="position: relative;">
-	<div class="flex flex-col items-end max-w-[1440px] px-4 mx-auto" style="align-items: flex-start;">
+   <section class=" px-[5%] " >
+	<div class="flex flex-col  " >
 	 
 	  <div class="mx-auto mb-16 text-center">
 		<h2 class="mb-6 font-serif text-4xl lg:text-5xl font-alice">Awards & Recognitions</h2>
@@ -79,17 +84,17 @@
 	  </div>
   
 	  
-	  <div id="horizontalContainer" class="horizontal-container flex  gap-8 pb-4 w-full snap-x scroll-smooth " >
-		<div id="horizontal" class="flex gap-8 " style="align-items: flex-start;" >
+	  <div id="horizontalContainer" class="horizontal-container w-full mx-auto " >
+		<div id="horizontal" class="flex gap-x-4  mx-auto" style="align-items: flex-center;" >
 		  {#each awards as award}
 			<div class="group  snap-center">
 			 
-			  <div class="mb-4 rounded-2xl transition-all duration-300 hover:shadow-md ">
+			  <div id="start" class="mb-4 rounded-2xl  hover:shadow-md ">
 				<img 
 				  src={award.image} 
 				  alt={award.title} 
-				  class="rounded-lg md:h-[457px] md:w-full object-cover"
-				  style="width:100%; height:100%; max-height:457px;" 
+				  class="rounded-lg  object-cover"
+				  style="width:100%; height:100%; max-height:550px;" 
 				/>
 			  </div> 
 	  

@@ -28,7 +28,6 @@
   import { ScrollTrigger } from "gsap/ScrollTrigger";
   export const ssr = false;
 
-// export function scrollSmooth() {
   gsap.registerPlugin(ScrollTrigger);
   onMount(() => {
     const horizontal = document.getElementById("horizontal");
@@ -41,8 +40,6 @@
         scrollTrigger: {
           trigger: horizontalContainer,
           pin: ".pin",
-        //   start: "top top",
-        //   end: () => `+=${horizontal.scrollWidth - horizontalContainer.clientWidth}`,
 		start: "top center",
 		end: "+=300",
           scrub: 0.5,
@@ -54,7 +51,6 @@
       console.error("Element not found: horizontal or horizontalContainer");
     }
   });
-// }
 
 
 </script>

@@ -1,20 +1,20 @@
 <script>
 	const projects = [
 		{
-			title: 'Airlie Gardens',
-			location: 'Middle East',
-			image: '/images/lastimage.png' // Replace with your actual image path
-		},
-		{
-			title: 'Gulf Villa',
-			location: 'Middle East',
-			image: '/images/lastimage2.png' // Replace with your actual image path
-		},
-		{
-			title: 'Muscat Villa',
-			location: 'Middle East',
-			image: '/images/lastimage3.png' // Replace with your actual image path
-		}
+        title: "Event Space",
+        location: "Kota Bharu",
+        image: "/images/Projects/1-EventSpace/1.png",
+      },
+      {
+        title: "Twelve, Taman Ira",
+        location: "perlis",
+        image: "/images/Projects/2-Taman/1.png",
+      },
+      {
+        title: "Istana Bukit Malut",
+        location: "Langkawi",
+        image: "/images/Projects/3-Istana/1.png",
+      },
 	];
 
 	export let title = 'Latest Projects';

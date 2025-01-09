@@ -7,11 +7,11 @@
 <a href="/portfolio-details" class="block">
   <div class="rounded-lg overflow-hidden">
       <!-- Image Section -->
-      <div class="overflow-hidden">
+      <div class="overflow-hidden rounded-lg">
           <img 
               src={image} 
               alt={title} 
-              class="w-full object-cover transform transition-transform duration-300 hover:scale-[1.03]" 
+              class=" object-cover transform transition-transform duration-300 hover:scale-[1.03] " 
           />
       </div>
 

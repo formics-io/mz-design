@@ -2,21 +2,21 @@
     	const contacts = [
 		{
 			id: 1,
-			icon: '/icons/email.png', // Replace with an icon component or SVG
+			icon: '/icons/contactMZ/location.svg', 
 			title: 'Email',
 			detail: 'support@gulaly.com',
 			buttonLabel: 'CONTACT'
 		},
 		{
 			id: 2,
-			icon: '/icons/phone.png', // Replace with an icon component or SVG
+			icon: '/icons/contactMZ/Phone.svg', 
 			title: 'Phone',
 			detail: 'Office. +61 234–567 8910',
 			buttonLabel: 'CALL'
 		},
 		{
 			id: 3,
-			icon: '/icons/place.png', // Replace with an icon component or SVG
+			icon: '/icons/contactMZ/location.svg', 
 			title: 'Office',
 			detail: '6391 Elgin St. Celina, Delaware 10299',
 			buttonLabel: 'LOCATION'
@@ -41,7 +41,7 @@
 							src={contact.icon}
                             alt={contact.title}
 						/>
-						<h3 class="text-lg mt-2 font-semibold m ">{contact.title}</h3>
+						<h3 class="text-lg mt-4 font-semibold m ">{contact.title}</h3>
 					</div>
 					<p class="mb-4 font-general-sans text-sm font-semibold leading-6 text-left  underline-offset-[from-font] decoration-skip-ink-none">
 						{#if contact.title === 'Phone'}
@@ -50,9 +50,9 @@
 							{contact.detail}
 						{/if}
 					</p>									 
-					<div class="flex gap-2">
-                        <button style="border:1px solid black;"
-						class="text-xs	font-semibold  w-[93px] h-[32px] rounded-full  px-[16px] py-[8px] text-center text-sm  transition hover:bg-opacity-80"
+					<div class="flex gap-2 ">
+                        <button 
+						class="text-xs bg-[#003EFF]  text-white	font-semibold  w-[93px] h-[32px] rounded-full  px-[16px] py-[8px] text-center text-sm  transition hover:bg-white hover:text-black hover:ring-1 hover:ring-[#003EFF]"
 					>
 						{contact.buttonLabel}
 					</button>

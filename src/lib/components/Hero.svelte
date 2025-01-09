@@ -79,9 +79,13 @@
 			<div
 				class="order-4 flex flex-col items-center justify-items-start gap-6 md:mt-10 lg:order-3 lg:flex-row"
 			>
-				<button class="rounded-full border px-6 py-2 font-medium transition-colors">
-					View Our Portfolio
-				</button>
+				<a href="portfolio">
+					<button  class="font-medium relative inline-flex items-center justify-center rounded-full border px-6 py-2  overflow-hidden group">
+						<span class="relative z-10 transition-colors duration-300 group-hover:text-white ">View Our Portfolio</span>
+						<div class="absolute inset-x-0 bottom-0 h-0 bg-[#003EFF] outline-none transition-all duration-300 ease-out group-hover:h-full"></div>
+					</button>
+				</a>
+				
 				<p class="text-gray-600">
 					Over <span class="font-semibold text-blue-600">100+</span> premium designs
 				</p>

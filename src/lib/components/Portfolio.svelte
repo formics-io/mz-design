@@ -4,50 +4,36 @@
   
     const portfolioItems = [
       {
-        title: "Airlie Gardens",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio.png",
+        title: "Event Space",
+        subtitle: "Kota Bharu",
+        image: "/images/Projects/1-EventSpace/1.png",
       },
       {
-        title: "Gulf Villa",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio2.png",
+        title: "Twelve, Taman Ira",
+        subtitle: "perlis",
+        image: "/images/Projects/2-Taman/1.png",
       },
       {
-        title: "Muscat Villa",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio3.png",
+        title: "Istana Bukit Malut",
+        subtitle: "Langkawi",
+        image: "/images/Projects/3-Istana/1.png",
       },
       {
-        title: "Gulf Villa",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio2.png",
+        title: "Corporate Office at Phileo Damansara",
+        subtitle: "Petaling jaya",
+        image: "/images/Projects/4-Corporate/1.png",
       },
       {
-        title: "Muscat Villa",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio3.png",
+        title: "The MET Corporate Towers",
+        subtitle: "KL",
+        image: "/images/Projects/5-TheMet/1.png",
       },
       {
-        title: "Airlie Gardens",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio.png",
+        title: "Istana DYTM Raja Muda Perlis",
+        subtitle: "arau",
+        image: "/images/Projects/6-IstanaArau/1.png",
       },
-      {
-        title: "Gulf Villa",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio2.png",
-      },
-      {
-        title: "Airlie Gardens",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio.png",
-      },
-      {
-        title: "Muscat Villa",
-        subtitle: "Middle East",
-        image: "/images/portfolio/portfolio3.png",
-      },
+      
     ];
   </script>
   

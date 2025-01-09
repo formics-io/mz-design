@@ -11,7 +11,7 @@
           <img 
               src={image} 
               alt={title} 
-              class=" object-cover transform transition-transform duration-300 hover:scale-[1.03] " 
+              class=" md:w-[450px] h-[350px] w-full object-cover transform transition-transform duration-300 hover:scale-[1.03] " 
           />
       </div>
 

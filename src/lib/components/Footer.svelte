@@ -17,11 +17,51 @@
 
       <!-- Navigation Links -->
       <nav class="flex gap-6	 text-center  flex-wrap text-lg	 flex-col sm:flex-row	">
-        <a href="/" class="hover:underline">Home</a>
-        <a href="/service" class="hover:underline">Service</a>
-        <a href="/portfolio" class="hover:underline">Portfolio</a>
-        <a href="/about" class="hover:underline">About Us</a>
-        <a href="/contact" class="hover:underline">Contact Us</a>
+       
+				
+          <a
+            href="/"
+            class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
+          >
+            Home
+            <span
+              class="absolute bottom-0 left-0 h-[2px] w-0 bg-[#003EFF] transition-all duration-300 group-hover:w-full"
+            ></span>
+          </a>
+        
+       
+          <a
+            href="/service"
+            class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
+          >
+            Service
+            <span
+            class="absolute bottom-0 left-0 h-[2px] w-0 bg-[#003EFF] transition-all duration-300 group-hover:w-full"
+          ></span>
+          </a>
+        
+       
+          <a
+            href="/portfolio"
+            class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
+          >
+            Portfolio
+            <span
+            class="absolute bottom-0 left-0 h-[2px] w-0 bg-[#003EFF] transition-all duration-300 group-hover:w-full"
+          ></span>
+          </a>
+        
+       
+          <a
+            href="/about"
+            class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
+          >
+            About Us
+            <span
+            class="absolute bottom-0 left-0 h-[2px] w-0 bg-[#003EFF] transition-all duration-300 group-hover:w-full"
+          ></span>
+          </a>
+        
       </nav>
     </div>
 

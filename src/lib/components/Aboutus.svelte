@@ -1,4 +1,4 @@
-<section class="   py-[75px] px-[5%] ">
+<section class="py-[105px] px-[5%] ">
   
     <div class=" mx-auto flex flex-col justify-between items-center gap-2.5  md:px-6 lg:flex-row max-w-[1200px]">
       <!-- Left Content -->
@@ -19,11 +19,12 @@
       </div>
   
       <!-- Right Content: Split Image -->
-      <div class="md:w-[516px]">
+      <div class="md:w-[516px] h-[416px] 	">
+          <!-- svelte-ignore a11y_img_redundant_alt -->
           <img
-            src="/images/Group 1.png"
+            src="/images/aboutMZ.jpg"
             alt="Team Image"
-            class="h-full  object-cover"
+            class="h-full  object-cover rounded-xl"
           />
       </div>
     </div>

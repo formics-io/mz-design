@@ -1,9 +1,11 @@
 <script>
 	const images = [
-		{ src: '/images/banner.png', alt: 'Modern living room' },
-		{ src: '/images/banner (1).png', alt: 'Home office' },
-		{ src: '/images/banner (2).png', alt: 'Living room with fireplace' },
-		{ src: '/images/image.png', alt: 'Modern bedroom' }
+		{ src: '/images/Projects/1-EventSpace/1.png', alt: 'Modern living room' },
+		{ src: '/images/Projects/2-Taman/1.png', alt: 'Home office' },
+		{ src: '/images/Projects/3-Istana/1.png', alt: 'Living room with fireplace' },
+		{ src: '/images/Projects/4-Corporate/1.png', alt: 'Modern bedroom' },
+		{ src: '/images/Projects/5-TheMet/1.png', alt: 'Modern bedroom' },
+		{ src: '/images/Projects/6-IstanaArau/1.png', alt: 'Modern bedroom' }
 	];
 </script>
 

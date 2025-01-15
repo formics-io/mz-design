@@ -1,7 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
-  import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  
   export const ssr = false;
 
     const steps = [
@@ -10,21 +8,21 @@
 			title: 'Understanding Your Vision',
 			description:
 				'With over 20 years of expertise, we work closely with clients to understand their unique needs and aspirations, ensuring every design is tailored to their vision.',
-			images: ['/images/Rectangle 14.png', '/images/Frame 108.png']
+			images: ['/images/Projects/1-EventSpace/1.png']
 		},
 		{
 			number: '02',
 			title: 'Collaborating to Create',
 			description:
 				'Partner with our expert designers to craft bespoke solutions. From functional layouts to artistic details, we bring your ideas to life with precision and creativity.',
-			images: ['/images/Rectangle 15.png', '/images/Rectangle 14 (1).png']
+			images: ['/images/Projects/1-EventSpace/2.png']
 		},
 		{
 			number: '03',
 			title: 'Seamless Execution',
 			description:
 				'We source premium materials and trusted partners to ensure every design is executed flawlessly, transforming concepts into functional spaces.',
-			images: ['/images/Rectangle 14.png', '/images/Frame 108.png']
+			images: ['/images/Projects/1-EventSpace/3.png']
 		}
 	];
 
@@ -64,12 +62,12 @@
           </div>
 
           <!-- Step Images -->
-          <div class="mt-6 grid grid-cols-2 gap-2">
+          <div class="mt-6 grid grid-cols-1 gap-2">
             {#each step.images as image}
               <img
                 src={image}
                 alt="Interior design"
-                class="h-48 w-full rounded-lg object-cover"
+                class="h-[300px] w-full rounded-lg object-cover"
                 loading="lazy"
               />
             {/each}

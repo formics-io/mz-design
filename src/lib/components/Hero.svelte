@@ -33,7 +33,7 @@
 					{#each [...images, ...images] as { src, alt }, i (i)}
 						<div class="w-full flex-none px-2 md:w-1/2 lg:w-1/3">
 							<div class="overflow-hidden rounded-xl shadow-lg">
-								<img {src} {alt} class="h-48 w-full rounded-lg object-cover md:h-64" />
+								<img {src} {alt} class="h-48 w-[450px] rounded-lg object-cover md:h-64" />
 							</div>
 						</div>
 					{/each}

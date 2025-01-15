@@ -1,22 +1,22 @@
 <script>
 	const awards = [
 		{
-			image: '/images/awards/APPRECIATION-LETTER-MZDC.jpeg', 
+			image: '/images/awards/award.jpeg', 
 			title: 'Inaugural Women of Excellence Awards',
 			year: '2014'
 		},
 		{
-			image: '/images/awards/Picture6.jpg', 
+			image: '/images/awards/award1.jpeg', 
 			title: 'MALAYSIA MEGA SALE CARNIVAL',
 			year: '2009'
 		},
 		{
-			image: '/images/awards/Picture8.jpg', 
+			image: '/images/awards/award2.jpeg', 
 			title: 'Nippon Paint Young Designer',
 			year: '2013'
 		},
 		{
-			image: '/images/awards/Picture42.jpg', 
+			image: '/images/awards/award3.jpeg', 
 			title: 'Nippon Paint Young Designer',
 			year: '2013'
 		},

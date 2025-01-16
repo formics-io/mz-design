@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import PortfolioCard from '$lib/components/PortfolioCard.svelte';
 
 	const portfolioItems = [
@@ -93,8 +93,14 @@
 			]
 		}
 	];
-</script>
+</script> -->
 
+<script>
+	import {postType} from 'src/studio-mz-design/schemaTypes/postType';
+	
+  </script>
+  
+<!-- 
 <section class=" px-[5%]">
 	<div class="mx-auto max-w-7xl px-4 text-center">
 		<h2 class="mb-12 font-alice text-5xl font-normal">Portfolio</h2>
@@ -104,4 +110,4 @@
 			{/each}
 		</div>
 	</div>
-</section>
+</section> -->

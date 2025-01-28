@@ -44,7 +44,7 @@
 	<div class=" mx-auto">
 		<!-- Heading -->
 		<div class="text-center">
-			<h2 class="text-3xl font-bold  md:text-4xl">Our Services</h2>
+			<h2 class="lg:text-5xl font-medium md:text-4xl  font-alice">Our Services</h2>
 			<p class="mx-auto mt-4 text-lg ">
 				Discover a wide range of professional design solutions crafted to transform your vision into
 				reality. From planning and architecture to bespoke interiors and training programs, we bring

@@ -1,4 +1,4 @@
-<section class=" px-[5%] py-[70px]">
+<section class=" px-[5%] py-[20px]">
 	<div
 		class="mx-auto max-w-7xl rounded-2xl px-10 py-[70px] shadow-[0px_4px_20px_0px_#5A463524] md:px-28"
 	>
@@ -82,8 +82,8 @@
 		>
 			<!-- Social Media Icons First on Mobile -->
 			<div class="order-1 flex space-x-4 md:order-2">
-				<a href="/">
-					<img src="/icons/twitter-fill.svg" alt="Twitter" class="size-8" />
+				<a href="/" >
+					<img src="/icons/twitter-fill.svg" alt="Twitter" class="size-8  " />
 				</a>
 				<a href="/">
 					<img src="/icons/Vector.svg" alt="Instagram" class="size-7" />

@@ -56,14 +56,14 @@
 
   <section class="py-20 px-[5%]">
     <div class="max-w-[1300px] mx-auto">
-      <h1 class="text-3xl font-bold text-center mb-12">Among Past Clients</h1>
-      <div class="grid  xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+      <h1 class="text-5xl font-medium text-center mb-12 font-alice">Among Past Clients</h1>
+      <div class="grid  grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
         {#each clients as item}
           <div class="flex flex-col items-center gap-4">
             <img
               src="{item.image}"
               alt="{item.title}"
-              class=" object-cover w-[300px] h-[300px]"
+              class=" object-cover w-[180px] h-[180px]"
             />
             <!-- <p class="text-sm font-medium">{item.title}</p> -->
           </div>

@@ -4,15 +4,15 @@
       <!-- Left Content -->
       <div class="md:w-[637px] text-center md:text-left">
         <p class=" tracking-wide ">About Us</p>
-        <h2 class="mt-4 text-2xl font-semibold md:text-4xl leading-snug ">
+        <h2 class="mt-2 lg:text-5xl font-medium md:text-4xl leading-snug font-alice">
           Transforming Spaces with <br /> Expertise and Excellence
         </h2>
-        <p class="mt-6 ">
+        <p class="mt-2">
           At MZ Design Consultancy, with over 20 years of experience, we specialize in innovative and
           bespoke architectural and interior design, led by Principal IDr Monie Mohariff. Our notable
           projects include Istana Bukit Malut in Langkawi and the upcoming Istana Raja Muda Perlis.
         </p>
-        <p class="mt-4 ">
+        <p class="mt-2">
           We prioritize understanding our clients' needs, delivering functional, beautiful spaces with
           ease and precision.
         </p>

@@ -35,7 +35,7 @@
 
 <section class=" px-[5%] py-16">
   <div class="mx-auto md:max-w-6xl">
-    <h2 class="lg:mb-20 mb-10 text-center font-serif lg:text-5xl xl:text-5xl xxl:text-5xl text-4xl">How We Work</h2>
+    <h2 class="lg:mb-20 mb-10 text-center font-alice  text-5xl font-medium">How We Work</h2>
 
     <!-- Horizontal Scroll Section -->
     <div

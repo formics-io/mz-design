@@ -24,7 +24,7 @@
 	];
 </script>
 
-<section class=" py-[70px] px-[5%] mx-auto">
+<section class=" py-[40px] px-[5%] mx-auto">
 	<div class="mx-auto max-w-[1260px] justify-items-center items-center text-center flex flex-col">
         <div class="flex flex-col items-center justify-center">
             <h2 class="mb-4 text-[50px] font-normal font-alice leading-[57.15px] text-center  underline-offset-[from-font] decoration-skip-ink-none">Contact Us</h2>

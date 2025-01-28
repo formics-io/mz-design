@@ -24,7 +24,7 @@ function togglePlay(id: number): void {
 
 <section class="py-[100px] px-[5%]">
     <div class="mx-auto max-w-6xl px-4 text-center">
-        <h2 class="mb-8 text-2xl md:text-3xl font-bold">
+        <h2 class="mb-8 lg:text-5xl md:text-3xl font-medium font-alice">
             Videos Featuring Principal IDr Monie Mohariff
         </h2>
         <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 ">

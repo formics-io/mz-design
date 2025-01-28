@@ -96,7 +96,7 @@
 </script> -->
 
 <script>
-	import {postType} from 'src/studio-mz-design/schemaTypes/postType';
+	
 	
   </script>
   

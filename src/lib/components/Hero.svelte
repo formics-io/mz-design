@@ -1,12 +1,113 @@
-<script>
+<script lang="ts">
+	import { onMount } from "svelte";
+
 	const images = [
 		{ src: '/images/Projects/1-EventSpace/1.png', alt: 'Modern living room' },
+		{ src: '/images/Projects/1-EventSpace/2.png', alt: 'Modern living room' },
+		
+
 		{ src: '/images/Projects/2-Taman/1.png', alt: 'Home office' },
+		{ src: '/images/Projects/2-Taman/2.png', alt: 'Home office' },
+		
+
 		{ src: '/images/Projects/3-Istana/1.png', alt: 'Living room with fireplace' },
+		{ src: '/images/Projects/3-Istana/2.png', alt: 'Living room with fireplace' },
+		
+
+		{ src: '/images/Projects/4-Corporate/1.png', alt: 'Modern bedroom' },
+		{ src: '/images/Projects/4-Corporate/2.png', alt: 'Modern bedroom' },
+		
+
+		{ src: '/images/Projects/5-TheMet/1.png', alt: 'Modern bedroom' },
+		{ src: '/images/Projects/5-TheMet/2.png', alt: 'Modern bedroom' },
+		
+
+		{ src: '/images/Projects/6-IstanaArau/1.png', alt: 'Modern bedroom' },
+		{ src: '/images/Projects/6-IstanaArau/2.png', alt: 'Modern bedroom' },
+		
+
 		{ src: '/images/Projects/4-Corporate/1.png', alt: 'Modern bedroom' },
 		{ src: '/images/Projects/5-TheMet/1.png', alt: 'Modern bedroom' },
-		{ src: '/images/Projects/6-IstanaArau/1.png', alt: 'Modern bedroom' }
+		
 	];
+	let currentIndex = 0;
+let translateX = 0;
+let transitioning = false;
+let intervalId: ReturnType<typeof setInterval>;
+	let displayImages = [...images];
+
+
+// Start auto-scroll
+// const startAutoScroll = () => {
+//   intervalId = setInterval(nextSlide, 3000); // Adjust interval as needed
+// };
+
+// const stopAutoScroll = () => {
+//   clearInterval(intervalId);
+// };
+
+// Move to the next slide
+const nextSlide = () => {
+  if (transitioning) return;
+
+  transitioning = true;
+  currentIndex++;
+
+  if (currentIndex === displayImages.length) {
+    // Loop back to the first image
+	
+    setTimeout(() => {
+      currentIndex = 0;
+      translateX = 0; // Reset to first slide
+      transitioning = false;
+    }, 500); // Match the CSS transition duration
+  } else {
+    translateX = -currentIndex * 100;
+    setTimeout(() => (transitioning = false), 500);
+  }
+};
+
+// Move to the previous slide
+const prevSlide = () => {
+  if (transitioning) return;
+
+  transitioning = true;
+  currentIndex--;
+
+  if (currentIndex < 0) {
+    // Jump to the last image
+    currentIndex = displayImages.length - 1;
+    translateX = -currentIndex * 100;
+    setTimeout(() => (transitioning = false), 500);
+  } else {
+    translateX = -currentIndex * 100;
+    setTimeout(() => (transitioning = false), 500);
+  }
+};
+
+// Touch event handlers for swipe
+let startX = 0;
+
+const handleTouchStart = (e: TouchEvent) => {
+  startX = e.touches[0].clientX;
+};
+
+const handleTouchEnd = (e: TouchEvent) => {
+  const endX = e.changedTouches[0].clientX;
+  if (endX - startX > 50) prevSlide(); 
+  else if (startX - endX > 50) nextSlide(); 
+};
+
+
+
+
+onMount(() => {
+  setInterval(() => {
+	displayImages = [...displayImages.slice(1), displayImages[0]];
+  }, 3000); 
+ 
+});
+
 </script>
 
 <section class="overflow-hidden xxl:py-20">
@@ -28,7 +129,7 @@
 			</div>
 
 			<!-- Carousel Images -->
-			<div class="order-2 col-span-full mb-6 mt-10 w-full lg:order-4 lg:col-span-2">
+			<!-- <div class="order-2 col-span-full mb-6 mt-10 w-full lg:order-4 lg:col-span-2">
 				<div class="flex animate-scroll gap-4">
 					{#each [...images, ...images] as { src, alt }, i (i)}
 						<div class="w-full flex-none px-2 md:w-1/2 lg:w-1/3">
@@ -38,8 +139,50 @@
 						</div>
 					{/each}
 				</div>
+			</div> -->
+			<div
+			class="order-2 col-span-full mb-6 mt-10 w-full lg:order-4 lg:col-span-2 relative overflow-hidden"
+			on:touchstart={handleTouchStart}
+			on:touchend={handleTouchEnd}
+		  >
+			<!-- Carousel Wrapper -->
+			<div
+			  class="flex transition-transform duration-500 ease-in-out"
+			  style="transform: translateX({translateX}%)"
+			>
+			{#each displayImages as { src, alt }, i (i)}
+			<div class="w-full flex-none px-2 md:w-1/2 lg:w-1/3 duration-500 ease-in-out">
+				  <div class=" rounded-xl shadow-lg">
+					<img {src} {alt} class="h-48 w-[450px] rounded-lg object-cover md:h-64" />
+				  </div>
+				</div>
+			  {/each}
 			</div>
-
+		  
+			<!-- Left Arrow Button -->
+			<button
+			  class="absolute top-1/2 left-4 -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full shadow-lg hover:bg-gray-200"
+			  on:click={prevSlide}
+			  aria-label="Previous Slide"
+			>
+			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-6 w-6">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+			  </svg>
+			</button>
+		  
+			<!-- Right Arrow Button -->
+			<button
+			  class="absolute top-1/2 right-4 -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full shadow-lg hover:bg-gray-200"
+			  on:click={nextSlide}
+			  aria-label="Next Slide"
+			>
+			  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-6 w-6">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+			  </svg>
+			</button>
+		  </div>
+		  
+		  
 			<!-- Awards Grid -->
 			<div class="order-3 mx-auto justify-self-end lg:order-2 lg:mx-0">
 				<div

@@ -36,7 +36,7 @@ onMount(async () => {
       <h2 class="mb-12 font-alice text-5xl font-normal">Portfolio</h2>
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {#each projects as item}
-        <a href="{`/portfolio-details/${item.slug.current}`}" class="block">
+        <a href={`/portfolio-details/${item.slug.current}`} class="block">
 
           <div class="rounded-lg overflow-hidden">
             <!-- Image Section -->

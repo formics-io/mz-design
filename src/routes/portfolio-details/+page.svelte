@@ -1,5 +1,4 @@
-<!-- ProjectDetail.svelte -->
-<script>
+ <!-- <script>
 	import Contactus from "$lib/components/Contactus.svelte";
 	import LastProjects from "$lib/components/LastProjects.svelte";
 
@@ -35,7 +34,7 @@
 
 <section class="">
   <div class="max-w-5xl mx-auto px-4 py-10">
-    <!-- Project Header -->
+  
     <div class="text-center mb-16">
       <h1 class="text-4xl lg:text-5xl font-serif  mb-2">
         {title}
@@ -45,9 +44,9 @@
       </p>
     </div>
 
-    <!-- Image Gallery -->
+  
     <div class="grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-10">
-      <!-- First Row - Large Images -->
+     
       <div class="col-span-1 md:col-span-4">
         <img
           src={images[0].src}
@@ -63,7 +62,7 @@
         />
       </div>
 
-      <!-- Second Row - Smaller Images -->
+     
       <div class="col-span-1 md:col-span-2">
         <img
           src={images[2].src}
@@ -79,7 +78,7 @@
         />
       </div>
 
-      <!-- Third Row - Equal Size Images -->
+     
       <div class="col-span-1 md:col-span-2">
         <img
           src={images[4].src}
@@ -96,8 +95,52 @@
       </div>
     </div>
   </div>
-</section>
+</section> 
 
-<LastProjects title="Related Projects"/>
+ <LastProjects title="Related Projects"/>
 
-<Contactus/>
+<Contactus/> 
+
+
+ -->
+ <script>
+  import { page } from '$app/stores';
+	import client from '$lib/sanity';
+  import { onMount } from 'svelte';
+ 
+
+  /**
+	 * @type {{ title: any; }}
+	 */
+  let project;
+  /**
+	 * @type {string}
+	 */
+  let slug;
+
+  onMount(() => {
+    const unsubscribe = page.subscribe(async ($page) => {
+      slug = $page.params.slug; // Get the slug from the URL
+
+      if (slug) {
+        const query = `*[_type == "project" && slug.current == $slug][0]`;
+        project = await client.fetch(query, { slug });
+      }
+    });
+
+    return () => unsubscribe();
+  });
+</script>
+
+{#if project}
+  <h1>{project.title}</h1>
+{:else}
+  <p>Loading...</p>
+{/if}
+
+
+
+
+
+
+

@@ -1,22 +1,14 @@
 import { createClient } from '@sanity/client';
-import imageUrlBuilder from '@sanity/image-url';
 
 // Initialize the Sanity client
 const client = createClient({
   projectId: "joxx5irp",
   dataset: "production",
-  apiVersion: "2024-01-01",
-  useCdn: false,
+  apiVersion: "v2022-03-07",
+  useCdn: true,
+  token:"skmYPTGB1fBf560tOjz3Wal0H68XTgAauFJhiD1HVjHMKHmie8dq2HErIh2ujumrkz9Hi3ss61DSiaZyVa7FlvX9DnakmoH6bwzzOdA7Eb0JBCNH8Jy5LsX15vRBejU1RsOORRTjYGYWvoNqP9AoppgWcCsDB8dlJGgINDF10Sh3Rg1j7uEt",
 });
 
-// Initialize the image URL builder
-const builder = imageUrlBuilder(client);
 
-/**
- * Generate a URL for a Sanity image
- * @param {object|string} source - The image object or string
- * @returns {string} - The generated image URL
- */
-export const urlFor = (source) => builder.image(source).url();
 
 export default client;

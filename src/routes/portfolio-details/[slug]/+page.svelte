@@ -33,10 +33,10 @@
   <div class="max-w-5xl mx-auto px-4 py-10">
   
     <div class="text-center mb-10">
-      <h1 class="text-4xl lg:text-5xl font-serif  mb-2">
+      <h1 class="text-4xl lg:text-5xl font-alice  mb-2">
         {project.title}
       </h1>
-      <p class="text-gray-600 text-lg">
+      <p class="text-gray-600 text-lg font-raleway">
         {project.subtitle}
       </p>
     </div>

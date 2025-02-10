@@ -21,13 +21,13 @@
 	const philosophyimages = ['/images/philosophy2.png', '/images/philosophy.png'];
 </script>
 
-<section class=" px-[5%] ">
-<div class="max-w-[1200px] mx-auto py-[55px]" >
+<section class="px-[5%] ">
+<div class="max-w-[1200px] mx-auto md:py-[55px] py-[30px]" >
 <div class="flex  flex-col items-center gap-8  lg:flex-row">
 		<!-- Text Content -->
 		<div class="text-left lg:w-1/2">
 			<h1 class="font-alice mb-4 lg:text-5xl  font-medium
- md:text-4xl">{heroTitle}</h1>
+ text-4xl">{heroTitle}</h1>
 			<p class="font-raleway leading-relaxed ">
 				At MZ Design Consultancy, we specialize in creating bespoke interiors that blend luxury,
 				functionality, and timeless elegance. Based in Malaysia, our studio has over 20 years of
@@ -67,10 +67,10 @@
 	
 </section>
 
-<section class=" py-[75px] px-[5%]">
-	<div class="mx-auto max-w-6xl px-4 text-center">
-		<h2 class="font-alice mb-6 text-5xl font-medium">{title}</h2>
-		<div class="flex flex-col justify-center gap-6 sm:flex-row">
+<section class=" py-[60px] px-[5%]">
+	<div class="mx-auto max-w-6xl  text-center">
+		<h2 class="font-alice mb-6 lg:text-5xl text-4xl font-medium mb-4">{title}</h2>
+		<div class="flex flex-col justify-center gap-6 sm:flex-row mt-4">
 			{#each images as image}
 				<img src={image} alt="Our Journey" class="w-full rounded-lg shadow-md sm:w-1/2" />
 			{/each}
@@ -84,7 +84,7 @@
 <AwardsRecognitions />
 
 <section class=" py-[75px] px-[5%]">
-  <div class="mx-auto flex max-w-[1220px] gap-12 md:gap-24 px-4 flex-col lg:flex-row items-center">
+  <div class="mx-auto flex max-w-[1220px] gap-6 md:gap-24 px-4 flex-col lg:flex-row items-center">
     <!-- Image Content -->
     <div class="grid grid-cols-2  md:h-[440px] gap-4 lg:w-1/2">
         <img src={philosophyimages[0]} alt="Our Philosophy" class="self-start rounded-lg object-cover shadow-md" />
@@ -92,7 +92,7 @@
     </div>
     <!-- Text Content -->
     <div class="md:text-center text-left lg:w-1/2 lg:text-left">
-        <h2 class="mb-6 text-5xl font-alice font-medium">{philosophytitle}</h2>
+        <h2 class="mb-2 lg:text-5xl text-4xl font-alice font-medium">{philosophytitle}</h2>
         <p class="leading-relaxed font-raleway ">{philosophydescription}</p>
     </div>
 </div>

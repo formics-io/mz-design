@@ -29,11 +29,11 @@ onMount(async () => {
 });
 </script>
 
-<div class="py-8 ">
+<div class="py-8">
  
   <section class="px-[5%]">
-    <div class="mx-auto max-w-7xl px-4 text-center">
-      <h2 class="mb-12 font-alice text-5xl font-normal">Portfolio</h2>
+    <div class="mx-auto max-w-7xl  text-center">
+      <h2 class="mb-12 font-alice lg:text-5xl text-4xl font-normal">Portfolio</h2>
       <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {#each projects as item}
         <a href={`/portfolio-details/${item.slug.current}`} class="block">

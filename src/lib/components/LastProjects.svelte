@@ -76,11 +76,10 @@
   });
   </script>
   
-  <div class="py-8 ">
-   
+  <div class="py-8">
 	<section class="px-[5%]">
 	  <div class="mx-auto max-w-7xl px-4 text-center">
-		<h2 class="mb-12 font-alice text-5xl font-normal">Portfolio</h2>
+		<h2 class="mb-12 lg:text-5xl font-medium text-4xl leading-snug font-alice">Portfolio</h2>
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 		  {#each limitedProjects as item}
 		  <!-- <a href={`/portfolio-details/${item.slug.current}`} class="block"> -->
@@ -109,8 +108,6 @@
 	  </div>
 	</section>
 	
-		  
-
 		<div class="text-center mt-5">
 			<a href="/portfolio" class="no-underline">
 				<button

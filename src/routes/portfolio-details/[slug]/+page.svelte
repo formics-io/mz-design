@@ -32,7 +32,7 @@
 <section class="">
   <div class="max-w-5xl mx-auto px-4 py-10">
   
-    <div class="text-center mb-16">
+    <div class="text-center mb-10">
       <h1 class="text-4xl lg:text-5xl font-serif  mb-2">
         {project.title}
       </h1>

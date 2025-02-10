@@ -40,12 +40,12 @@
 <Aboutus />
 
 <!-- services -->
-<section class="py-16  px-[5%] max-w-[1200px] mx-auto">
+<section class="lg:py-16  px-[5%] max-w-[1200px] mx-auto">
 	<div class=" mx-auto">
 		<!-- Heading -->
 		<div class="text-center">
-			<h2 class="lg:text-5xl font-medium md:text-4xl  font-alice">Our Services</h2>
-			<p class="mx-auto mt-4 text-lg ">
+			<h2 class="lg:text-5xl font-medium  text-4xl leading-snug font-alice">Our Services</h2>
+			<p class="mx-auto mt-4 text-lg lg:text-xl font-raleway">
 				Discover a wide range of professional design solutions crafted to transform your vision into
 				reality. From planning and architecture to bespoke interiors and training programs, we bring
 				creativity and expertise to every project.
@@ -161,12 +161,12 @@
 
 <HowWeWork/>
 
-<section class=" py-20 px-[5%] max-w-[1300px] mx-auto">
+<section class=" lg:py-20 px-[5%] max-w-[1300px] mx-auto">
 	<div class="mx-auto ">
-		<div class="grid gap-16 lg:grid-cols-2">
+		<div class="grid gap-10 lg:grid-cols-2 ">
 			<!-- Left Column - Hero Text -->
 			<div class="space-y-6">
-				<h1 class="font-alice text-3xl leading-tight  md:text-5xl">
+				<h1 class="lg:text-5xl font-medium text-4xl leading-snug font-alice">
 					Empowering Creativity,<br />
 					Shaping the Future with<br />
 					MZ Design Consultancy
@@ -180,10 +180,10 @@
 			</div>
 
 			<!-- Right Column - Features Grid -->
-			<div class="grid gap-6 md:grid-cols-2">
+			<div class="grid gap-6 md:grid-cols-2 ">
 				{#each features as feature}
 					<div
-						class="space-y-4 font-raleway rounded-lg border-[1.5px]  p-6 shadow-[0px_8px_64px_0px_#5A46351A]"
+						class="space-y-4 font-raleway rounded-lg border-[1.5px]  p-6 shadow-[0px_8px_64px_0px_#5A46351A] "
 					>
 						<svelte:component
 							this={feature.icon}

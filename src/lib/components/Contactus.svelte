@@ -27,13 +27,13 @@
 <section class=" py-[40px] px-[5%] mx-auto">
 	<div class="mx-auto max-w-[1260px] justify-items-center items-center text-center flex flex-col">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="mb-4 text-[50px] font-normal font-alice leading-[57.15px] text-center  underline-offset-[from-font] decoration-skip-ink-none">Contact Us</h2>
-            <p class="mb-10 max-w-[700px] ">
+            <h2 class="mb-2 text-4xl lg:text-5xl font-normal font-alice leading-[57.15px] text-center  underline-offset-[from-font] decoration-skip-ink-none">Contact Us</h2>
+            <p class="mb-10 max-w-[700px] font-lg font-raleway text-center lg:font-xl">
                 Get in touch with us for your design needs. Whether it’s a question, a project inquiry, or
                 feedback, we’re here to help.
             </p>
         </div>
-		<div class="flex flex-wrap flex-row gap-4 mx-auto ">
+		<div class="flex flex-wrap flex-row gap-4 mx-auto justify-center">
 			{#each contacts as contact}
 				<div class=" md:w-[400px]  w-full  rounded-xl border  p-6 text-left shadow-md">
 					<div class="">

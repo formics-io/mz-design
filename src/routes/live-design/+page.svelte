@@ -27,7 +27,18 @@
 		<h2 class="mb-12 font-alice text-5xl font-normal">Live Design</h2>
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 			{#each portfolioItems as item}
-				<PortfolioCard  image={item.image} />
+			<div class="rounded-lg overflow-hidden">
+				<!-- Image Section -->
+				<div class="overflow-hidden rounded-lg">
+					<img 
+						src={item.image} 
+						alt="Portfolio Image"
+						class=" md:w-[450px] h-[350px] w-full object-cover transform transition-transform duration-300 hover:scale-[1.03] " 
+					/>
+				</div>
+		  
+			
+			</div>
 			{/each}
 		</div>
 	</div>

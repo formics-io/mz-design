@@ -27,12 +27,17 @@
 	import { ScrollTrigger } from 'gsap/ScrollTrigger';
 	export const ssr = false;
 
-	gsap.registerPlugin(ScrollTrigger);
+
+
+	
+		gsap.registerPlugin(ScrollTrigger);
+
 	onMount(() => {
 		const horizontal = document.getElementById('horizontal');
 		const horizontalContainer = document.getElementById('horizontalContainer');
 
 		if (horizontal && horizontalContainer) {
+			
 			gsap.to('#horizontal', {
 				x: () => -(horizontal.scrollWidth - horizontalContainer.clientWidth),
 				ease: 'none',
@@ -49,6 +54,7 @@
 			console.error('Element not found: horizontal or horizontalContainer');
 		}
 	});
+
 </script>
 
 <section class="px-[5%] pt-8">
@@ -85,6 +91,33 @@
 					</div>
 				{/each}
 			</div>
+
+			<!--  -->
+
+			<div id="mobileView"  class="sm:flex space-x-8 overflow-x-auto py-[10%] snap-x snap-x scroll-smooth "
+			style="scroll-snap-align: start;">
+				{#each awards as award}
+					<div class="group snap-start">
+						<div id="start" class="mb-4 rounded-2xl hover:shadow-md">
+							<img
+								src={award.image}
+								alt={award.title}
+								class="rounded-lg object-cover"
+								style="width:100%; height:100%; max-height:550px;"
+							/>
+						</div>
+						<div>
+							<h3 class="font-serif text-xl">
+								{award.title}
+							</h3>
+							<p class="text-gray-600">
+								{award.year}
+							</p>
+						</div>
+					</div>
+				{/each}
+			</div>
+			<!--  -->
 		</div>
 	</div>
 </section>
@@ -94,11 +127,22 @@
 		white-space: nowrap;
 		height: auto;
 	}
+	#mobileView {
+		display: none;
+	}
 
 	@media (max-width: 500px) {
 		.horizontal-container {
 			overflow-x: auto;
 			scroll-snap-type: x mandatory;
+			white-space: nowrap;
+		    height: auto;
+		}
+		#mobileView{
+			display: flex;
+		}
+		#horizontal {
+			display: none;
 		}
 	}
 	

@@ -63,9 +63,9 @@
 			</p>
 		</div>
 		<div id="horizontalContainer" class="horizontal-container mx-auto w-full">
-			<div id="horizontal" class="mx-auto flex gap-x-4" style="align-items: flex-center;">
+			<div id="horizontal" class="mx-auto flex gap-x-4 " style="align-items: flex-center;">
 				{#each awards as award}
-					<div class="group snap-center">
+					<div class="group md:snap-center">
 						<div id="start" class="mb-4 rounded-2xl hover:shadow-md">
 							<img
 								src={award.image}
@@ -94,4 +94,13 @@
 		white-space: nowrap;
 		height: auto;
 	}
+
+	@media (max-width: 500px) {
+		.horizontal-container {
+			overflow-x: auto;
+			scroll-snap-type: x mandatory;
+		}
+	}
+	
+	
 </style>

@@ -76,6 +76,17 @@
 			</li>
 			<li>
 				<a
+					href="/live-design"
+					class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
+				>
+					Live Design
+					<span
+					class="absolute bottom-0 left-0 h-[2px] w-0 bg-[#003EFF] transition-all duration-300 group-hover:w-full"
+				></span>
+				</a>
+			</li>
+			<li>
+				<a
 					href="/about"
 					class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
 				>
@@ -145,6 +156,16 @@
 					style="animation-duration: 0ms; text-underline-position: from-font;"
 				>
 					Portfolio
+				</a>
+			</li>
+			<li>
+				<a
+					href="/live-design"
+					on:click={handleMobileNavClick}
+					class="block text-left font-raleway text-[16px] font-medium leading-6 hover:text-blue-600"
+					style="animation-duration: 0ms; text-underline-position: from-font;"
+				>
+					Live Design
 				</a>
 			</li>
 			<li>

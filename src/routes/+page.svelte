@@ -206,5 +206,5 @@
 <AwardsRecognitions/>
 <Vedios/>
 <ClientLogoList />
-<Testimonial/>
+<!-- <Testimonial/> -->
 <Contactus />

@@ -25,10 +25,10 @@
 <section class="py-[5%] px-[5%]">
 	<div class="mx-auto max-w-7xl px-4 text-center">
 		<h2 class="mb-12 font-alice text-5xl font-normal">Live Design</h2>
-		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+		<!-- <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 			{#each portfolioItems as item}
 			<div class="rounded-lg overflow-hidden">
-				<!-- Image Section -->
+				
 				<div class="overflow-hidden rounded-lg">
 					<img 
 						src={item.image} 
@@ -40,7 +40,9 @@
 			
 			</div>
 			{/each}
-		</div>
+		</div> -->
+		<div class='sk-instagram-feed' data-embed-id='25533173'></div><script src='https://widgets.sociablekit.com/instagram-feed/widget.js' defer></script>
+
 	</div>
 </section> 
 

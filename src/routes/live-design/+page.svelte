@@ -1,47 +1,41 @@
-<script lang="ts">
-	import Contactus from '$lib/components/Contactus.svelte';
 
-	
-	import PortfolioCard from '$lib/components/PortfolioCard.svelte';
+  <style>
+ .sk-instagram-feed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
-	const portfolioItems = [
-		{
-			id: 1,
-			image: '/images/Projects/1-EventSpace/1.png',
-		},
-		{
-			id:2,
-			image: '/images/Projects/1-EventSpace/2.png',
-		},
-		{
-			id:3,
-			image: '/images/Projects/1-EventSpace/3.png',
-		}
-    ]
+.sk-instagram-feed {
+    margin: 0 auto;
+    display: block;
+	width: auto !important;  /* Prevents fixed width */
+    max-width: 100%;
+}
 
-  </script>
-  
+.first_loading_animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  </style>
  
 <section class="py-[5%] px-[5%]">
 	<div class="mx-auto max-w-7xl px-4 text-center">
 		<h2 class="mb-12 font-alice text-5xl font-normal">Live Design</h2>
-		<!-- <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-			{#each portfolioItems as item}
-			<div class="rounded-lg overflow-hidden">
-				
-				<div class="overflow-hidden rounded-lg">
-					<img 
-						src={item.image} 
-						alt="Portfolio Image"
-						class=" md:w-[450px] h-[350px] w-full object-cover transform transition-transform duration-300 hover:scale-[1.03] " 
-					/>
-				</div>
-		  
-			
-			</div>
-			{/each}
-		</div> -->
-		<div class='sk-instagram-feed' data-embed-id='25533173'></div><script src='https://widgets.sociablekit.com/instagram-feed/widget.js' defer></script>
+		
+		
+
+		<div class="sk-instagram-feed-container">
+			<div class="sk-instagram-feed" data-embed-id="25533173"></div>
+		</div>
+		
+		
+		<script src='https://widgets.sociablekit.com/instagram-feed/widget.js' defer></script>
 
 	</div>
 </section> 

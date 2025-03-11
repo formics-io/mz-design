@@ -5,28 +5,36 @@
 			icon: '/icons/contactMZ/Email.svg', 
 			title: 'Email',
 			detail: 'admin@mz02.com',
-			buttonLabel: 'CONTACT'
+			buttonLabel: 'CONTACT',
+			link: 'mailto:admin@mz02.com'
+
 		},
 		{
 			id: 2,
 			icon: '/icons/contactMZ/Phone.svg', 
 			title: 'Phone',
 			detail: 'Office. 03-61862822' ,
-			buttonLabel: 'CALL'
+			buttonLabel: 'CALL',
+			link: 'tel:+612345678910'
+
 		},
 		{
 			id: 3,
 			icon: '/icons/contactMZ/location.svg', 
 			title: 'Office',
 			detail: '57A, Jalan SG 3/1, Pusat Bandar Sri Gombak, 68100 Batu Caves Selangor, Malaysia',
-			buttonLabel: 'LOCATION'
+			buttonLabel: 'LOCATION',
+			link: 'https://www.google.com/maps/search/?api=1&query=57A+Jalan+SG+3/1+Pusat+Bandar+Sri+Gombak+68100+Batu+Caves+Selangor+Malaysia'
+
 		},
 		{
 			id: 4,
 			icon: '/icons/contactMZ/WHATSAPP.svg', 
 			title: 'Whatsapp',
 			detail: '+601158671745',
-			buttonLabel: 'CONTACT'
+			buttonLabel: 'CONTACT',
+			link: 'https://wa.me/601158671745'
+
 		}
 	];
 </script>
@@ -57,12 +65,14 @@
 				</div>
 			
 				<div class="flex gap-2 mt-auto">
+					<a href="{contact.link}" target="_blank">
 					<button 
 						class="text-xs bg-[#003EFF] text-white font-semibold w-[93px] h-[32px] rounded-full px-[16px] py-[8px] text-center text-sm transition hover:bg-white hover:text-black hover:ring-1 hover:ring-[#003EFF]"
 					>
 					
 						{contact.buttonLabel}
 					</button>
+					</a>
 					<p class="mt-2 text-xs text-gray-500">*extra information(optional)</p>
 				</div>
 			</div>

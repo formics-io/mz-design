@@ -20,7 +20,7 @@
 <section class=" py-20">
     <div class="mx-auto max-w-6xl px-4">
         <div class="mx-auto mb-12 max-w-3xl text-center">
-            <h2 class="mb-6 font-alice text-5xl  lg:text-5xl font-medium">Our Work in Action</h2>
+            <h2 class="mb-2 lg:text-5xl font-medium text-4xl leading-snug font-alice">Our Work in Action</h2>
             <p class="leading-relaxed font-raleway">
                 Experience our design journey through a showcase of projects that blend creativity,
                 functionality, and innovation. Watch the video to see how we bring spaces to life.

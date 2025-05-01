@@ -74,8 +74,8 @@
 </script>
 
 <section class=" py-12">
-	<div class="mx-auto max-w-6xl px-4 text-center">
-		<h2 class="font-alice mb-10 text-center text-5xl font-medium lg:text-5xl md:text-3xl">
+	<div class="mx-auto max-w-6xl  text-center">
+		<h2 class="font-alice mb-10 text-center text-4xl font-medium lg:text-5xl ">
 			What Our Clients Say
 		</h2>
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

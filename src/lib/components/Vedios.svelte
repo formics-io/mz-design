@@ -22,12 +22,12 @@ function togglePlay(id: number): void {
 }
 </script>
 
-<section class="py-[100px] px-[5%]">
-    <div class="mx-auto max-w-6xl px-4 text-center">
-        <h2 class="mb-8 lg:text-5xl md:text-3xl font-medium font-alice">
+<section class="sm:py-[100px] px-[5%]">
+    <div class="mx-auto max-w-6xl  text-center">
+        <h2 class="mb-8 lg:text-5xl font-medium text-4xl leading-snug font-alice">
             Videos Featuring Principal IDr Monie Mohariff
         </h2>
-        <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 ">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 ">
             {#each videos as video}
                 <!-- svelte-ignore a11y_click_events_have_key_events -->
                 <div class="group relative overflow-hidden rounded-2xl " role="button" tabindex="0" on:click={() => togglePlay(video.id)} on:keydown={(e) => e.key === 'Enter' && togglePlay(video.id)}>

@@ -61,10 +61,10 @@
     ];
   </script>
   
-  <section class=" xl:py-[77px] mx-auto">
+  <section class="py-[50px] mx-auto">
 
    <div class="max-w-[1200px] mx-auto  space-y-8">
-      <h2 class="md:text-4xl text-3xl text-center font-alice ">Our Services</h2>
+      <h2 class="text-4xl lg:text-5xl text-center font-alice ">Our Services</h2>
       <div class="space-y-8 px-[5%]">
         {#each services as service, index}
           <Card

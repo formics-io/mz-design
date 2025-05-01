@@ -118,7 +118,7 @@ onMount(() => {
 		>
 			<!-- Main Content -->
 			<div class="order-1 text-center lg:mx-0 lg:min-w-[600px] lg:text-left">
-				<h1 class="font-alice text-3xl leading-tight md:text-6xl">
+				<h1 class="font-alice text-5xl leading-tight md:text-6xl">
 					Your Dream Space,<br />
 					Designed to Perfection.
 				</h1>
@@ -129,17 +129,7 @@ onMount(() => {
 			</div>
 
 			<!-- Carousel Images -->
-			<!-- <div class="order-2 col-span-full mb-6 mt-10 w-full lg:order-4 lg:col-span-2">
-				<div class="flex animate-scroll gap-4">
-					{#each [...images, ...images] as { src, alt }, i (i)}
-						<div class="w-full flex-none px-2 md:w-1/2 lg:w-1/3">
-							<div class="overflow-hidden rounded-xl shadow-lg">
-								<img {src} {alt} class="h-48 w-[450px] rounded-lg object-cover md:h-64" />
-							</div>
-						</div>
-					{/each}
-				</div>
-			</div> -->
+			
 			<div
 			class="order-2 col-span-full mb-6 mt-10 w-full lg:order-4 lg:col-span-2 relative overflow-hidden"
 			on:touchstart={handleTouchStart}
@@ -151,9 +141,9 @@ onMount(() => {
 			  style="transform: translateX({translateX}%)"
 			>
 			{#each displayImages as { src, alt }, i (i)}
-			<div class="w-full flex-none px-2 md:w-1/2 lg:w-1/3 duration-500 ease-in-out">
-				  <div class=" rounded-xl shadow-lg">
-					<img {src} {alt} class="h-48 w-[450px] rounded-lg object-cover md:h-64" />
+			<div class="w-full flex-none px-2 sm:w-1/2 lg:w-1/3 duration-500 ease-in-out ">
+				  <div class=" rounded-xl shadow-lg flex justify-center al">
+					<img {src} {alt} class="h-48 w-[450px] rounded-lg  md:h-64 " />
 				  </div>
 				</div>
 			  {/each}

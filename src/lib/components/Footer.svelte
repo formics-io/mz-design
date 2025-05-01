@@ -4,9 +4,7 @@
 	>
 		<!-- Top Section -->
 		<div class="flex flex-col items-center justify-between gap-4 lg:flex-row">
-			<!-- Logo Section -->
-			<div class="flex items-center space-x-2">
-				<!-- <img src="/logo.png" alt="MZ Design Cons." class="h-8 w-8" /> -->
+			<div class="flex flex-wrap items-center space-x-2 justify-center text-center">
 				<svg
 					width="51"
 					height="49"
@@ -29,11 +27,11 @@
 					/>
 				</svg>
 
-				<span class="text-2xl font-bold text-[#0056D6]">MZ Design Cons.</span>
+				<span class="text-2xl font-bold text-[#0056D6] ">MZ Design Cons.</span>
 			</div>
 
 			<!-- Navigation Links -->
-			<nav class="flex flex-col flex-wrap gap-6 text-center text-lg sm:flex-row">
+			<nav class="flex flex-col flex-wrap gap-6 text-center text-lg sm:flex-row mt-4 md:mt-0">
 				<a
 					href="/"
 					class="group relative text-center font-raleway text-[16px] text-base leading-6 text-black hover:text-[#003EFF]"
@@ -80,10 +78,9 @@
 		<div
 			class="mt-6 flex flex-col items-center justify-between border-t border-gray-300 pt-4 text-sm md:flex-row"
 		>
-			<!-- Social Media Icons First on Mobile -->
 			<div class="order-1 flex space-x-4 md:order-2">
-				<a href="/" >
-					<img src="/icons/twitter-fill.svg" alt="Twitter" class="size-8  " />
+				<a href="/">
+					<img src="/icons/twitter-fill.svg" alt="Twitter" class="size-8" />
 				</a>
 				<a href="/">
 					<img src="/icons/Vector.svg" alt="Instagram" class="size-7" />
@@ -95,8 +92,7 @@
 					<img src="/icons/Vector (2).svg" alt="WhatsApp" class="size-7" />
 				</a>
 			</div>
-			<!-- Copyright Text Second on Mobile -->
-			<p class="order-2 mt-4 md:order-1 md:mt-0">©2024 Vario All Rights Reserved.</p>
+			<p class="order-2 mt-4 md:order-1 md:mt-0 text-center">©2024 Vario All Rights Reserved.</p>
 		</div>
 	</div>
 </section>

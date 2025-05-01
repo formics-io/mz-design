@@ -35,11 +35,11 @@
 
 <section class=" px-[5%] py-16">
   <div class="mx-auto md:max-w-6xl">
-    <h2 class="lg:mb-20 mb-10 text-center font-alice  text-5xl font-medium">How We Work</h2>
+    <h2 class="lg:mb-20 mb-10 text-center lg:text-5xl font-medium text-4xl leading-snug font-alice">How We Work</h2>
 
     <!-- Horizontal Scroll Section -->
     <div
-      class="flex space-x-16 overflow-x-auto snap-x snap-x scroll-smooth"
+      class="flex space-x-8 overflow-x-auto snap-x snap-x scroll-smooth"
       style="scroll-snap-align: start;"
     >
       {#each steps as step}
@@ -48,7 +48,7 @@
         <div class="flex-shrink-0 w-80 flex flex-col space-y-6 snap-start">
           <!-- Step Number -->
           <div
-            class="flex h-8 w-8 items-center justify-center rounded-full  text-sm font-medium  md:h-12 md:w-12 md:text-lg"
+            class="flex h-8 w-8 items-center justify-center rounded-full  text-sm font-medium  md:h-12 md:w-12 md:text-lg bg-[#003eff] text-white"
           >
             {step.number}
           </div>
